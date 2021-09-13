@@ -1,6 +1,6 @@
-# AI Healthcare Hackathon
+# SAAI AI & Art Hackathon
 
-<img src="figures/doc.jpg" width="600">
+<img src="figures/athena.png" width="500">
 
 
 Find out more about this project at its [Devpost page](https://devpost.com/software/track-1-challenge-5-medical-imaging-communication-tools?ref_content=my-projects-tab&ref_feature=my_projects).
@@ -9,9 +9,7 @@ Find out more about this project at its [Devpost page](https://devpost.com/softw
 
 This repository contais the work of the **AI Wonder Girls** team for the [SAAI Hackathon on Art and AI](https://saai.devpost.com/)! 
 
-<img src="figures/logo.png" width="200">
-
-<img src="figures/team.png" width="400">
+<img src="figures/team.png" width="500">
 
 ## Inspiration 
 Our project aims to address the lack of diversity problem in the arts world. Research shows that although women are about half of the art students, the art works promoted in exhibitions are still in its majority by white males.
