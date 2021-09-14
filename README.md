@@ -20,8 +20,7 @@ In this project we introduce the `ATHENA Art Assistant` as a technology which ai
 
 Our all women, AI Wonder Girls, brings to you an art assist that will help users getting inspired by art made by women, as well as empower more artists to use technology to build hybrid art with a combination of female and AI touches.
 
-*Athena is the greek godess of knowledge, reason and handicraft*, so we chose the name of our assistant in her honor to represent the union of Art and technology in this tool.## What our tool does
-The AI Medical Imaging application detects wrist fractures, automatically generates reports and displays an analytics dashboard from adaptable configuration capabilities. 
+*Athena is the greek godess of knowledge, reason and handicraft*, so we chose the name of our assistant in her honor to represent the union of Art and technology in this tool.
 
 ## What it does
 Our AI assistant is an application that combines multiple advanced AI techniques to recommend and create art based on the work of women artists. 
