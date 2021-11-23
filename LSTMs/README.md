@@ -1,7 +1,7 @@
 # README Poetry with LSTMs 
 
 **Dataset:**
-Open source dataset from [Poetry Foundation](), we relabel the dataset in terms of the gender of poets.
+Open source [Poetry Foundation Dataset at Kaggle](https://www.kaggle.com/ultrajack/modern-renaissance-poetry), we relabel the dataset in terms of the gender of poets.
 
 *Labels:*
 - `M`: for *male*
