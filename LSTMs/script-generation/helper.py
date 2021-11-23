@@ -23,9 +23,6 @@ def preprocess_and_save_data(dataset_path, token_lookup, create_lookup_tables):
     """
     text = load_data(dataset_path)
     
-    # Ignore notice, since we don't use it for analysing the data
-    text = text[81:]
-
     token_dict = token_lookup()
     for key, token in token_dict.items():
         text = text.replace(key, ' {} '.format(token))
