@@ -48,11 +48,11 @@ elif selection == 'Painting Style':
         source = st.selectbox("Select data source:", ['Painter1', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Painter1':
             st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
-            st.image('athena/style/style_2.png')
+            st.image('athena/style/style_2.jpg')
             st.markdown("*Original Content: Name of Art, by [PainterC1](wikipedia link)")
-            st.image('athena/style/content_4.png')
+            st.image('athena/style/content_4.jpg')
             st.markdown("*Generated Athena Art: ---")
-            st.image('athena/style/s2c4.png')
+            st.image('athena/style/s2c4.jpg')
 
 
 elif selection == 'Feminist Animations':
