@@ -16,8 +16,7 @@ import warnings
 warnings.filterwarnings( "ignore")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-#Function definitions
-    
+st.set_page_config(layout="wide").    
 
 #### Application starts
 #st.sidebar.image('images/main.jpeg')
@@ -52,7 +51,7 @@ elif selection == 'Painting Style':
             st.image('athena/style/style_2.jpg', width=400)
             st.markdown("*(Left) Original Content: Name of Art, by [PainterC1](wikipedia link), (Right)")
             st.markdown("*(Right) Generated Athena Art.")
-            st.image('athena/style/content_4.jpg','athena/style/s2c4.jpg')
+            st.image(['athena/style/content_4.jpg','athena/style/s2c4.jpg'])
 
 elif selection == 'Feminist Animations':
         st.image('athena/images/athena.png')
