@@ -57,7 +57,7 @@ if selection == 'Climate Change Effects':
         st.subheader("Carbon Emissions by Country")
         st.write('Below is a bar chart race showing the top 10 countries that produce \
                   the highest total ' + 'CO{}'.format('\u2082') + ' emissions over the years.')
-        st.video('carbon-emissions.mp4')
+        st.video('athena/animations/v1q1.mp4')
 
 
 elif selection == 'Further Scope & Credits':
