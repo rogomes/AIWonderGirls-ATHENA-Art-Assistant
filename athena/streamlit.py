@@ -41,13 +41,13 @@ if selection == 'Home':
 elif selection == 'Painting Style':
         st.image('athena/images/athena.png')
 
-        st.header("Female Panting Style")
+        st.header("Female Painting Style")
         st.write('About blablabla')
 
         st.write("Below you can ...")
-        source = st.selectbox("Select data source:", ['Mary Cassatt, *Self Portrait*', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
+        source = st.selectbox("Select data source:", ['Mary Cassatt, Self Portrait', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Painter1':
-            st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
+            st.markdown("*Original Style: [Self Portrait](https://npg.si.edu/object/npg_NPG.76.33), by Mary Cassatt")
             st.image('athena/style/style_2.jpg', width=300)
             col1, col2 = st.columns(2)
 
