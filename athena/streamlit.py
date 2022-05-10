@@ -22,42 +22,51 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #### Application starts
 #st.sidebar.image('images/main.jpeg')
 st.sidebar.write('Welcome to the Climate Change Mitigation Assistant')
-selection = st.sidebar.selectbox("Go to page:", [ 'Climate Change Effects', 'Further Scope & Credits'])
+selection = st.sidebar.selectbox("Go to page:", [ 'Home', 'About', 'Poetry', 'Painting Style', 'Feminist Animations', 'Contribute', 'Further Scope & Credits'])
 
 
 
-st.title('Climate Change Mitigation Assistant ')
-if selection == 'Climate Change Effects':
-       # st.image('images/cce1.jpeg')
+st.title('ATHENA Art Assistant ')
+if selection == 'Home':
+        st.image('athena/images/athena.png')
         st.header('Climate Change Effects')
-        st.write("Most scientists globally have agreed that human activities, especially those involving \
-                  burning fossil fuels are causing an accelerated rise in the global temperature. \
-                  The Intergovernmental Panel on Climate Change (IPCC), one of the most trustable source \
-                  of climate change related research, released its newest report, the Sixth Assessment Report, \
-                  in August 2021, containing some alarming details.")
-        st.markdown('>*"Faster warming"*')
-        st.markdown('>*"Climate change widespread, rapid, and intensifying"*')
-        st.write("It is then of utmost important that efforts are performed to mitigate climate change effects. \
-                 First, however, we need to understand the effects of climate change.")
-        st.write("It is widely known that human activities especially \
-                  the burning of fossil fuels have caused global warming \
-                  that eventually causes climate change.")
-        st.write("Global warming means rising global temperature, which causes \
-                  a number of adverse effects.")
-        st.write("This includes rising sea level, melting ice caps, and many more.")
+        st.write("blablabla")
+        st.write("Place holder.")
+        st.image('athena/images/front.png')
+        st.image('athena/images/inspiration3.png')
 
-        st.subheader("Rising Global Temperature")
-        st.write("Below we can see the rising global temperature anomaly over time.")
-        st.write("Global temperature anomaly data are sourced from NASA's GISS Surface Temperature \
-                  (GISTEMP) analysis and the global component of Climate at a Glance (GCAG).")
-        source = st.selectbox("Select data source:", ['GISTEMP', 'GCAG'])
-        if source == 'GISTEMP':
-            st.image('athena/images/AIWG.png')
+        st.subheader("Credits")
+        st.image('athena/images/AIWG.png')
+        st.image('athena/images/saai.png')
 
-        st.subheader("Carbon Emissions by Country")
-        st.write('Below is a bar chart race showing the top 10 countries that produce \
-                  the highest total ' + 'CO{}'.format('\u2082') + ' emissions over the years.')
+elif selection == 'Painting Style':
+
+        st.header("Female Panting Style")
+        st.write('About blablabla')
+
+        st.write("Below you can ...")
+        source = st.selectbox("Select data source:", ['Painter1', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
+        if source == 'Painter1':
+            st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
+            st.image('athena/style/style2.png')
+            st.markdown("*Original Content: Name of Art, by [PainterC1](wikipedia link)")
+            st.image('athena/style/content4.png')
+            st.markdown("*Generated Athena Art: ---")
+            st.image('athena/style/s2c4.png')
+
+
+elif selection == 'Feminist Animations':
+
+        st.header("Feminist Quotes")
+        st.write('About blablabla')
+        st.markdown('>*"insert quote"*')
+
         st.video('athena/animations/v1q1.mp4')
+
+elif selection == 'Contribute':
+
+        st.header("Contribute to this Project")
+        st.write('About blablabla')
 
 
 elif selection == 'Further Scope & Credits':
