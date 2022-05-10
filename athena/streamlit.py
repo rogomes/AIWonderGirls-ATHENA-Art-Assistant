@@ -46,14 +46,14 @@ elif selection == 'Painting Style':
 
         st.write("Below you can ...")
         source = st.selectbox("Select data source:", ['Mary Cassatt, Self Portrait', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
-        if source == 'Painter1':
+        if source == 'Mary Cassatt, Self Portrait':
             st.markdown("*Original Style: [Self Portrait](https://npg.si.edu/object/npg_NPG.76.33), by Mary Cassatt")
             st.image('athena/style/style_2.jpg', width=300)
             col1, col2 = st.columns(2)
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_4.jpg", width=230 , caption='name of image, artist')
+                st.image("athena/style/content_4.jpg", width=230 , caption='["Water Lilies and Japanese Bridge"](https://artmuseum.princeton.edu/collections/objects/31852), by Claude Monet')
 
             with col2:
                 st.header("Athena Generated")
