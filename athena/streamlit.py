@@ -50,7 +50,7 @@ elif selection == 'Painting Style':
             st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
             st.image('athena/style/style_2.jpg', width=300)
             st.markdown("*Original Content: Name of Art, by [PainterC1](wikipedia link)")
-            st.image('athena/style/content_4.jpg')
+            st.image('athena/style/content_4.jpg', 'athena/style/s2c4.jpg')
             st.markdown("*Generated Athena Art: ---")
             st.image('athena/style/s2c4.jpg')
 
