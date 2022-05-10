@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings( "ignore")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(layout="wide")  
+#st.set_page_config(layout="wide")  
 
 #### Application starts
 #st.sidebar.image('images/main.jpeg')
@@ -48,12 +48,12 @@ elif selection == 'Painting Style':
         source = st.selectbox("Select data source:", ['Painter1', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Painter1':
             st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
-            st.image('athena/style/style_2.jpg', width=400)
+            st.image('athena/style/style_2.jpg', width=300)
             col1, col2 = st.columns(2)
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_4.jpg", caption='name of image, artist')
+                st.image("athena/style/content_4.jpg", width=200 , caption='name of image, artist')
 
             with col2:
                 st.header("Athena Generated")
