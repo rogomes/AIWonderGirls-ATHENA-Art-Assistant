@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings( "ignore")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(layout="wide").    
+st.set_page_config(layout="wide")  
 
 #### Application starts
 #st.sidebar.image('images/main.jpeg')
