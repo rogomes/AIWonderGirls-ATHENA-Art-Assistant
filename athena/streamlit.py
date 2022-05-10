@@ -49,10 +49,17 @@ elif selection == 'Painting Style':
         if source == 'Painter1':
             st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
             st.image('athena/style/style_2.jpg', width=400)
-            st.markdown("*(Left) Original Content: Name of Art, by [PainterC1](wikipedia link), (Right)")
-            st.markdown("*(Right) Generated Athena Art.")
-            st.image(['athena/style/content_4.jpg','athena/style/s2c4.jpg'])
+            col1, col2 = st.columns(2)
 
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_4.jpg", caption='name of image, artist')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s2c4.jpg")
+
+           
 elif selection == 'Feminist Animations':
         st.image('athena/images/athena.png')
 
