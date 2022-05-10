@@ -21,12 +21,12 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #### Application starts
 #st.sidebar.image('images/main.jpeg')
-st.sidebar.write('Welcome to the Climate Change Mitigation Assistant')
+st.sidebar.write('Welcome to the ATHENA Art Assistant')
 selection = st.sidebar.selectbox("Go to page:", [ 'Home', 'About', 'Poetry', 'Painting Style', 'Feminist Animations', 'Contribute', 'Further Scope & Credits'])
 
 
 
-st.title('ATHENA Art Assistant ')
+#st.title('ATHENA Art Assistant ')
 if selection == 'Home':
         st.image('athena/images/athena.png')
         st.header('Climate Change Effects')
@@ -40,6 +40,7 @@ if selection == 'Home':
         st.image('athena/images/saai.png')
 
 elif selection == 'Painting Style':
+        st.image('athena/images/athena.png')
 
         st.header("Female Panting Style")
         st.write('About blablabla')
@@ -49,13 +50,12 @@ elif selection == 'Painting Style':
         if source == 'Painter1':
             st.markdown("*Original Style: Name of Art, by [PainterS1](wikipedia link)")
             st.image('athena/style/style_2.jpg', width=300)
-            st.markdown("*Original Content: Name of Art, by [PainterC1](wikipedia link)")
+            st.markdown("*(Left) Original Content: Name of Art, by [PainterC1](wikipedia link), (Right)")
+            st.markdown("*(Right) Generated Athena Art.")
             st.image('athena/style/content_4.jpg', 'athena/style/s2c4.jpg')
-            st.markdown("*Generated Athena Art: ---")
-            st.image('athena/style/s2c4.jpg')
-
 
 elif selection == 'Feminist Animations':
+        st.image('athena/images/athena.png')
 
         st.header("Feminist Quotes")
         st.write('About blablabla')
@@ -64,12 +64,15 @@ elif selection == 'Feminist Animations':
         st.video('athena/animations/v1q1.mp4')
 
 elif selection == 'Contribute':
+        st.image('athena/images/athena.png')
 
         st.header("Contribute to this Project")
         st.write('About blablabla')
 
 
 elif selection == 'Further Scope & Credits':
+        st.image('athena/images/athena.png')
+
         st.image('athena/images/AIWG.png')
         st.subheader('Intended Audience:')
         st.write("The mitigation assistant application can be used by industry,policy makers, communities,and general public in adapting to the climate effects relevant to their sector and helps in climate mitigation solution planning implemetation" )
