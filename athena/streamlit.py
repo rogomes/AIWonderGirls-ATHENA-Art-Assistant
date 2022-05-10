@@ -48,7 +48,7 @@ elif selection == 'Painting Style':
         source = st.selectbox("Select data source:", ['Mary Cassatt, Self Portrait', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Mary Cassatt, Self Portrait':
 
-        c1, c2 = st.columns(2)
+            c1, c2 = st.columns(2)
 
             with c1:
                 st.header("Original Style")
