@@ -52,7 +52,7 @@ if selection == 'Climate Change Effects':
                   (GISTEMP) analysis and the global component of Climate at a Glance (GCAG).")
         source = st.selectbox("Select data source:", ['GISTEMP', 'GCAG'])
         if source == 'GISTEMP':
-            st.image('Rosana.jpg')
+            st.image('athena/images/AIWG.png')
 
         st.subheader("Carbon Emissions by Country")
         st.write('Below is a bar chart race showing the top 10 countries that produce \
@@ -61,7 +61,7 @@ if selection == 'Climate Change Effects':
 
 
 elif selection == 'Further Scope & Credits':
-        st.image('images/AIWG.png')
+        st.image('athena/images/AIWG.png')
         st.subheader('Intended Audience:')
         st.write("The mitigation assistant application can be used by industry,policy makers, communities,and general public in adapting to the climate effects relevant to their sector and helps in climate mitigation solution planning implemetation" )
         st.subheader("This application can be enhanced with ")
