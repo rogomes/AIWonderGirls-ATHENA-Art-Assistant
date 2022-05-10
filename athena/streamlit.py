@@ -53,11 +53,11 @@ elif selection == 'Painting Style':
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_4.jpg", width=250 , caption='name of image, artist')
+                st.image("athena/style/content_4.jpg", width=230 , caption='name of image, artist')
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s2c4.jpg")
+                st.image("athena/style/s2c4.jpg", width=230)
 
            
 elif selection == 'Feminist Animations':
