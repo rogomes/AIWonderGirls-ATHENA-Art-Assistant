@@ -52,8 +52,9 @@ elif selection == 'Poetry':
 
         st.header("ATHENA Poetry inspired by Female & Non-binary artists")
         st.write('About blablabla')
-                st.write("Below you can ...")
+        st.write("Below you can ...")
         source = st.selectbox("Select data source:", ['LGBTQ', 'Race', 'Topic3', 'Topic4','Topic5', 'Topic6'])
+  
         if source == 'LGBTQ':
             st.header("Wordcloud")
             st.markdown('The wordcloud shows the most common words present in the poems used as inspiration for ATHENA.')
