@@ -97,18 +97,21 @@ elif selection == 'Feminist Animations':
 
         st.header("Feminist Quotes")
         st.write('About blablabla')
+
+        st.subheader('Betty Friedan')
         st.markdown('>*"You can show more of the reality of yourself instead of hiding behind a mask for fear of revealing too much."* - Betty Friedan')
         st.markdown('[Betty Friedan](), ')
 
 
         st.video('athena/animations/v1q1.mp4')
 
+        st.subheader('Virginia Woolf')
         st.markdown('>*"There is no gate no lock no bolt that you can set upon the freedom of my mind together."* - Virginia Woolf')
         st.markdown('[Virginia Woolf](), ')
   
         st.video('athena/animations/v2q2.mp4')
 
-
+        st.subheader('Eleanor Roosevelt')
         st.markdown('>*"Do not stop thinking of life as an adventure. You have no security unless you can live bravely, excitingly, imaginatively; unless you can choose a challenge instead of competence."* - Eleanor Roosevelt')
         st.markdown('[Eleanor Roosevelt](), ')
 
