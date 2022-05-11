@@ -63,10 +63,10 @@ elif selection == 'Poetry':
 
             with c1:
                 
-                st.markdown("#Prior word: Soul")
+                st.header("Prior word: Soul")
                # st.image('athena/poetry', width=300)
             with c2:
-                st.markdown("**Prior word: Body**")
+                st.header("Prior word: Body")
                 #st.image('athena/poetry/.jpg', width=300)
 
 
