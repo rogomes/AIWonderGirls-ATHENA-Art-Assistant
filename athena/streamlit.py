@@ -33,6 +33,7 @@ if selection == 'Home':
         st.write("Place holder.")
         st.image('athena/images/front.png')
         st.image('athena/images/inspiration3.png')
+        st.image('athena/images/functionalities.png')
 
         st.subheader("Credits")
         st.image('athena/images/AIWG.png')
