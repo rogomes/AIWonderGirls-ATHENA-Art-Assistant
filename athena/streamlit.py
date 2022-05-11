@@ -236,9 +236,9 @@ elif selection == 'Contribute':
 
 
 elif selection == 'Credits':
-        st.markdown('This project is an open source product developed by the AI Wonder Girls team.')
         st.image('athena/images/athena.png')
-
+        
+        st.markdown('This project is an open source product developed by the AI Wonder Girls team.')
         st.image('athena/images/AIWG.png')
         st.subheader('Intended Audience:')
         st.write("""The ATHENA Art assistant application can be used by a broad public ranging from artists and technology professionals to the 
