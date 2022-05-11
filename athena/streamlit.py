@@ -145,7 +145,30 @@ elif selection == 'Feminist Animations':
 
         st.subheader('Virginia Woolf')
         st.markdown('>*"There is no gate no lock no bolt that you can set upon the freedom of my mind together."* - Virginia Woolf')
-        st.markdown('[Virginia Woolf](), ')
+        st.markdown("""[Virginia Woolf](https://en.wikipedia.org/wiki/Virginia_Woolf) (25 January 1882 - 28 March 1941) was an English writer, 
+        considered one of the most important modernist 20th-century authors and a pioneer in the use of stream of consciousness as a narrative device. 
+        Woolf was born into an affluent household in South Kensington, London, the seventh child of Julia Prinsep Jackson and Leslie Stephen in a 
+        blended family of eight which included the modernist painter Vanessa Bell. She was home-schooled in English classics and Victorian 
+        literature from a young age. From 1897 to 1901, she attended the Ladies' Department of King's College London, where she studied 
+        classics and history and came into contact with early reformers of women's higher education and the women's rights movement. 
+        Encouraged by her father, Woolf began writing professionally in 1900. After her father's death in 1904, the Stephen family moved 
+        from Kensington to the more bohemian Bloomsbury, where, in conjunction with the brothers' intellectual friends, they formed the 
+        artistic and literary Bloomsbury Group. In 1912, she married Leonard Woolf, and in 1917, the couple founded the Hogarth Press, 
+        which published much of her work. They rented a home in Sussex and moved there permanently in 1940. 
+        Woolf had romantic relationships with women, including Vita Sackville-West, who also published her books through Hogarth Press. 
+        Both women's literature became inspired by their relationship, which lasted until Woolf's death. 
+        During the inter-war period, Woolf was an important part of London's literary and artistic society. 
+        In 1915, she had published her first novel, The Voyage Out, through her half-brother's publishing house, Gerald Duckworth and Company. 
+        Her best-known works include the novels Mrs Dalloway (1925), To the Lighthouse (1927) and Orlando (1928). 
+        She is also known for her essays, including A Room of One's Own (1929). 
+        Woolf became one of the central subjects of the 1970s movement of feminist criticism and her works have since 
+        attracted much attention and widespread commentary for "inspiring feminism". Her works have been translated into more than 50 languages. 
+        A large body of literature is dedicated to her life and work, and she has been the subject of plays, novels and films. 
+        Woolf is commemorated today by statues, societies dedicated to her work and a building at the University of London. 
+        Throughout her life, Woolf was troubled by mental illness. She was institutionalised several times and attempted suicide 
+        at least twice. According to Dalsimer (2004) her illness was characterised by symptoms that today would be diagnosed as 
+        bipolar disorder, for which there was no effective intervention during her lifetime. 
+        In 1941, at age 59, Woolf died by drowning herself in the River Ouse at Lewes.""")
   
         st.video('athena/animations/v2q2.mp4')
 
