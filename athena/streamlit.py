@@ -32,9 +32,9 @@ if selection == 'Home':
         st.header('Women & AI Art')
         st.write("Welcome to the ATHENA Art Assistant, the first AI-based art assistant that promotes the work of female (and minorities) artists. ")
         st.markdown("**ATHENA will introduce you to a whole new world of AI art based on the work of female artists.**")
-        st.image('athena/images/front.png', width= 200)
-        st.image('athena/images/inspiration3.png',  width= 400)
-        st.image('athena/images/functionalities.png', width= 500)
+        st.image('athena/images/front.png', width= 400)
+        st.image('athena/images/inspiration3.png',  width= 600)
+        st.image('athena/images/functionalities.png', width= 800)
 
         st.subheader("Credits")
         st.image(['athena/images/AIWG.png','athena/images/saai.png'])
