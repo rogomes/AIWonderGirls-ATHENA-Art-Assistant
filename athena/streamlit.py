@@ -45,7 +45,6 @@ elif selection == 'About':
         st.header("Empowering and inspiring artists through AI")
         st.write('The goal of this project is to bring awareness about the gender gap in both the technology and arts fields.')
         st.image('athena/images/inspiration1.png')
-        st.image('athena/images/inspiration2.png')
 
         st.write('This project started during the SAAI Factory hackathon in August 2021, with the AI Wonder Girls team.')
         st.image('athena/images/team.png')
