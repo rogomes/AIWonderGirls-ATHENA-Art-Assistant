@@ -28,7 +28,7 @@ selection = st.sidebar.selectbox("Go to page:", [ 'Home', 'About', 'Poetry', 'Pa
 #st.title('ATHENA Art Assistant ')
 if selection == 'Home':
         st.image('athena/images/athena.png')
-        st.header('Climate Change Effects')
+        st.header('AI & Women Art')
         st.write("blablabla")
         st.write("Place holder.")
         st.image('athena/images/front.png')
@@ -37,6 +37,23 @@ if selection == 'Home':
         st.subheader("Credits")
         st.image('athena/images/AIWG.png')
         st.image('athena/images/saai.png')
+
+elif selection == 'Painting Style':
+        st.image('athena/images/athena.png')
+
+        st.header("Empowering and inspiring artists through AI")
+        st.write('This project started during the SAAI Factory hackathon in August 2021, with the AI Wonder Girls team.')
+        st.image('athena/images/team.png')
+        st.image('athena/images/AIWG.png')
+        st.image('athena/images/saai.png')
+
+
+elif selection == 'Poetry':
+        st.image('athena/images/athena.png')
+
+        st.header("Female Painting Style")
+        st.write('About blablabla')
+
 
 elif selection == 'Painting Style':
         st.image('athena/images/athena.png')
