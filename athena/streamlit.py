@@ -59,18 +59,20 @@ elif selection == 'Poetry':
             st.subheader("Wordcloud")
             st.markdown('The wordcloud shows the most common words present in the poems used as inspiration for ATHENA.')
             st.image('athena/poetry/words_lgbt.png', width=600)
+
+            st.header('Prior Word')
             p1, p2, p3 = st.columns(3)
 
             with p1:
                 
-                st.header("Prior word: Water")
+                st.header("Water")
                 st.image('athena/poetry/lgbtq_water.png', width=300)
             with p2:
-                st.header("Prior word: Dream")
+                st.header("Dream")
                 st.image('athena/poetry/lgbtq_dream.png', width=300)
 
             with p3:
-                st.header("Prior word: Soul")
+                st.header("Soul")
                 st.image('athena/poetry/lgbtq_soul.png', width=300)
 
 
