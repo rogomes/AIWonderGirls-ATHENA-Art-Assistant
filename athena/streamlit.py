@@ -50,7 +50,7 @@ elif selection == 'Painting Style':
 elif selection == 'Poetry':
         st.image('athena/images/athena.png')
 
-        st.header("Female Painting Style")
+        st.header("ATHENA Poetry inspired by Female & Non-binary artists")
         st.write('About blablabla')
 
 
