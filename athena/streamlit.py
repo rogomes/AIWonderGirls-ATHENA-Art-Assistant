@@ -123,7 +123,22 @@ elif selection == 'Feminist Animations':
 
         st.subheader('Betty Friedan')
         st.markdown('>*"You can show more of the reality of yourself instead of hiding behind a mask for fear of revealing too much."* - Betty Friedan')
-        st.markdown('[Betty Friedan](), ')
+        st.markdown("""[Betty Friedan](https://en.wikipedia.org/wiki/Betty_Friedan) (February 4, 1921 - February 4, 2006), was an American feminist writer 
+        and activist. A leading figure in the women's movement in the United States, her 1963 book The Feminine Mystique is often credited with sparking 
+        the second wave of American feminism in the 20th century. In 1966, Friedan co-founded and was elected the first president of the 
+        National Organization for Women (NOW), which aimed to bring women "into the mainstream of American society now [in] fully equal partnership with men". 
+        In 1970, after stepping down as NOW's first president, Friedan organized the nationwide Women's Strike for Equality on August 26, 
+        the 50th anniversary of the Nineteenth Amendment to the United States Constitution granting women the right to vote. The national 
+        strike was successful beyond expectations in broadening the feminist movement; the march led by Friedan in New York City alone attracted 
+        over 50,000 people. In 1971, Friedan joined other leading feminists to establish the National Women's Political Caucus. Friedan was 
+        also a strong supporter of the proposed Equal Rights Amendment to the United States Constitution that passed the United States 
+        House of Representatives (by a vote of 354-24) and Senate (84-8) following intense pressure by women's groups led by NOW in the early 1970s. 
+        Following Congressional passage of the amendment, Friedan advocated for ratification of the amendment in the states and supported other 
+        women's rights reforms: she founded the National Association for the Repeal of Abortion Laws but was later critical of the abortion-centered 
+        positions of many liberal feminists. Regarded as an influential author and intellectual in the United States, Friedan remained active in 
+        politics and advocacy until the late 1990s, authoring six books. As early as the 1960s Friedan was critical of polarized and extreme 
+        factions of feminism that attacked groups such as men and homemakers. One of her later books, The Second Stage (1981), critiqued what 
+        Friedan saw as the extremist excesses of some feminists.""")
 
 
         st.video('athena/animations/v1q1.mp4')
@@ -156,7 +171,12 @@ elif selection == 'Credits':
 
         st.image('athena/images/AIWG.png')
         st.subheader('Intended Audience:')
-        st.write("The mitigation assistant application can be used by industry,policy makers, communities,and general public in adapting to the climate effects relevant to their sector and helps in climate mitigation solution planning implemetation" )
+        st.write("""The ATHENA Art assistant application can be used by a broad public ranging from artists and technology professionals to the 
+        general public. Suggestions of use include (but not only):""")
+        st.markdown('**Artists:** promote the work of female, transgender and non-binary artists through the general public, as well as provide art inspiration through artificial intelligence technology')
+        st.markdown('**General Public:** get familiar with the work of female, transgender and non-binary artists while fostering curiosity and literacy on artificial intelligence technology.')
+        st.markdown('**Technology Professional:** engage on a fascinating application of advanced AI techniques through an open source initiative lead by an all-women developers team.')
+
       
         st.subheader('Credits')
         st.markdown('**Music**')
