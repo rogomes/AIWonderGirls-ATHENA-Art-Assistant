@@ -21,7 +21,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #### Application starts
 #st.sidebar.image('images/main.jpeg')
 st.sidebar.write('Welcome to the ATHENA Art Assistant')
-selection = st.sidebar.selectbox("Go to page:", [ 'Home', 'About', 'Poetry', 'Painting Style', 'Feminist Animations', 'Contribute', 'Further Scope & Credits'])
+selection = st.sidebar.selectbox("Go to page:", [ 'Home', 'About', 'Poetry', 'Painting Style', 'Feminist Animations', 'Contribute', 'Credits'])
 
 
 
