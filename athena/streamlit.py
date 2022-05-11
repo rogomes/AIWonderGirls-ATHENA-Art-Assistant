@@ -174,7 +174,35 @@ elif selection == 'Feminist Animations':
 
         st.subheader('Eleanor Roosevelt')
         st.markdown('>*"Do not stop thinking of life as an adventure. You have no security unless you can live bravely, excitingly, imaginatively; unless you can choose a challenge instead of competence."* - Eleanor Roosevelt')
-        st.markdown('[Eleanor Roosevelt](), ')
+        st.markdown("""[Eleanor Roosevelt](https://en.wikipedia.org/wiki/Eleanor_Roosevelt) (October 11, 1884 - November 7, 1962) was an American 
+        political figure, diplomat, and activist. She served as the first lady of the United States from 1933 to 1945, during her husband 
+        President Franklin D. Roosevelt's four terms in office, making her the longest-serving first lady of the United States.
+        Roosevelt served as United States Delegate to the United Nations General Assembly from 1945 to 1952.
+        President Harry S. Truman later called her the "First Lady of the World" in tribute to her human rights achievements. 
+        Roosevelt was a member of the prominent American Roosevelt and Livingston families and a niece of President Theodore Roosevelt.
+        She had an unhappy childhood, having suffered the deaths of both parents and one of her brothers at a young age. 
+        At 15, she attended Allenswood Boarding Academy in London and was deeply influenced by its headmistress Marie Souvestre. 
+        Returning to the U.S., she married her fifth cousin once removed, Franklin Delano Roosevelt, in 1905. 
+        The Roosevelts' marriage was complicated from the beginning by Franklin's controlling mother, Sara, and after 
+        Eleanor discovered her husband's affair with Lucy Mercer in 1918, she resolved to seek fulfillment in leading a public life of her own. 
+        She persuaded Franklin to stay in politics after he was stricken with a paralytic illness in 1921, which cost him the normal use of his legs, 
+        and began giving speeches and appearing at campaign events in his place. 
+        Following Franklin's election as Governor of New York in 1928, and throughout the remainder of Franklin's public career in government, 
+        Roosevelt regularly made public appearances on his behalf; and as First Lady, while her husband served as president, she significantly 
+        reshaped and redefined the role. Though widely respected in her later years, Roosevelt was a controversial first lady at the time 
+        for her outspokenness, particularly on civil rights for African-Americans. She was the first presidential spouse to hold regular 
+        press conferences, write a daily newspaper column, write a monthly magazine column, host a weekly radio show, 
+        and speak at a national party convention. On a few occasions, she publicly disagreed with her husband's policies. 
+        She launched an experimental community at Arthurdale, West Virginia, for the families of unemployed miners, later widely regarded 
+        as a failure. She advocated for expanded roles for women in the workplace, the civil rights of African Americans and Asian Americans, 
+        and the rights of World War II refugees. Following her husband's death in 1945, Roosevelt remained active in politics for the 
+        remaining 17 years of her life. She pressed the United States to join and support the United Nations and became its first delegate. 
+        She served as the first chair of the UN Commission on Human Rights and oversaw the drafting of the Universal Declaration of Human Rights. 
+        Later, she chaired the John F. Kennedy administration's Presidential Commission on the Status of Women. 
+        By the time of her death, Roosevelt was regarded as "one of the most esteemed women in the world"; 
+        The New York Times called her "the object of almost universal respect" in her obituary.
+        In 1999, she was ranked ninth in the top ten of Gallup's List of Most Widely Admired People of the 20th Century, 
+        and was listed thirteen times as the most admired woman between 1948 and 1961. """)
 
         st.video('athena/animations/v3q3.mp4')
 
