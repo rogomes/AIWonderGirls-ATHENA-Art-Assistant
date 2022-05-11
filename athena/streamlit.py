@@ -56,14 +56,14 @@ elif selection == 'Poetry':
         source = st.selectbox("Select data source:", ['LGBTQ', 'Race', 'Topic3', 'Topic4','Topic5', 'Topic6'])
   
         if source == 'LGBTQ':
-            st.header("Wordcloud")
+            st.subheader("Wordcloud")
             st.markdown('The wordcloud shows the most common words present in the poems used as inspiration for ATHENA.')
-            st.image('athena/poetry/words_lgbt.png', width=300)
+            st.image('athena/poetry/words_lgbt.png', width=500)
             c1, c2 = st.columns(2)
 
             with c1:
                 
-                st.markdown("**Prior word: Soul**")
+                st.markdown("#Prior word: Soul")
                # st.image('athena/poetry', width=300)
             with c2:
                 st.markdown("**Prior word: Body**")
