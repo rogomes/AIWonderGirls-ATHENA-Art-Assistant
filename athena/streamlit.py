@@ -216,7 +216,15 @@ elif selection == 'Contribute':
         st.image('athena/images/athena.png')
 
         st.header("Contribute to this Project")
-        st.markdown('Get in contact')
+        st.markdown('This project is intended to be maintained and expanded by the AI Wonder Girls team as an open source initiative.')
+        st.markdown('Contributions on the form of open source data, implementation of new features, documentation and brainstorming on expansions are more than welcome :)')
+
+
+        st.header("Get in contact")
+        st.markdown('Interested in contributing? Then reach out via your favorite media:')
+
+        st.image('athena/images/contact.png')
+
         
         st.subheader("This application can be enhanced with ")
         st.write("* QnA NLP system for user to query any topic/solution.")
@@ -224,6 +232,7 @@ elif selection == 'Contribute':
 
 
 elif selection == 'Credits':
+        st.markdown('This project is an open source product developed by the AI Wonder Girls team.')
         st.image('athena/images/athena.png')
 
         st.image('athena/images/AIWG.png')
