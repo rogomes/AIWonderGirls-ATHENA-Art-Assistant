@@ -36,8 +36,7 @@ if selection == 'Home':
         st.image('athena/images/functionalities.png')
 
         st.subheader("Credits")
-        st.image('athena/images/AIWG.png')
-        st.image('athena/images/saai.png')
+        st.image(['athena/images/AIWG.png','athena/images/saai.png'])
 
 elif selection == 'About':
         st.image('athena/images/athena.png')
@@ -45,6 +44,7 @@ elif selection == 'About':
         st.header("Empowering and inspiring artists through AI")
         st.write('This project started during the SAAI Factory hackathon in August 2021, with the AI Wonder Girls team.')
         st.image('athena/images/team.png')
+
         st.image(['athena/images/AIWG.png','athena/images/saai.png'])
 
 
