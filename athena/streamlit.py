@@ -58,7 +58,7 @@ elif selection == 'Poetry':
         if source == 'LGBTQ':
             st.header("Wordcloud")
             st.markdown('The wordcloud shows the most common words present in the poems used as inspiration for ATHENA.')
-            st.image('athena/poetry/words_lgbt', width=300)
+            st.image('athena/poetry/words_lgbt.png', width=300)
             c1, c2 = st.columns(2)
 
             with c1:
