@@ -220,9 +220,11 @@ elif selection == 'Contribute':
         st.markdown('Contributions on the form of open source data, implementation of new features, documentation and brainstorming on expansions are more than welcome :)')
 
         st.markdown('If you are an artist looking to promote your work, we will be happy to hear from you!')
-        
+
         st.markdown('We are also looking for collaborations and partnerships with art institutions, research sponsors and initiatives seeking to promote the work of women in tech. ')
 
+        st.subheader("Open Source Repository")
+        st.markdown('*GitHub:* https://github.com/rogomes/AIWonderGirls-ATHENA-Art-Assistant')
 
 
         st.header("Get in contact")
