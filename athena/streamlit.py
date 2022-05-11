@@ -29,9 +29,9 @@ selection = st.sidebar.selectbox("Go to page:", [ 'Home', 'About', 'Poetry', 'Pa
 #st.title('ATHENA Art Assistant ')
 if selection == 'Home':
         st.image('athena/images/athena.png')
-        st.header('AI & Women Art')
-        st.write("blablabla")
-        st.write("Place holder.")
+        st.header('Women & AI Art')
+        st.write("Welcome to the ATHENA Art Assistant, the first AI-based art assistant that promotes the work of female (and minorities) artists. ")
+        st.markdown("**ATHENA will introduce you to a whole new world of AI art based on the work of female artists.**")
         st.image('athena/images/front.png')
         st.image('athena/images/inspiration3.png')
         st.image('athena/images/functionalities.png')
