@@ -38,7 +38,7 @@ if selection == 'Home':
         st.image('athena/images/AIWG.png')
         st.image('athena/images/saai.png')
 
-elif selection == 'Painting Style':
+elif selection == 'About':
         st.image('athena/images/athena.png')
 
         st.header("Empowering and inspiring artists through AI")
