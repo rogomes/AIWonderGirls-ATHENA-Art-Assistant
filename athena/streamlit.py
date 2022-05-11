@@ -32,7 +32,7 @@ if selection == 'Home':
         st.header('Women & AI Art')
         st.write("Welcome to the ATHENA Art Assistant, the first AI-based art assistant that promotes the work of female (and minorities) artists. ")
         st.markdown("**ATHENA will introduce you to a whole new world of AI art based on the work of female artists.**")
-        st.image('athena/images/front.png')
+        st.image('athena/images/front.png', width= 100)
         st.image('athena/images/inspiration3.png')
         st.image('athena/images/functionalities.png', width= 100)
 
