@@ -34,7 +34,7 @@ if selection == 'Home':
         st.markdown("**ATHENA will introduce you to a whole new world of AI art based on the work of female artists.**")
         st.image('athena/images/front.png')
         st.image('athena/images/inspiration3.png')
-        st.image('athena/images/functionalities.png')
+        st.image('athena/images/functionalities.png', width= 150)
 
         st.subheader("Credits")
         st.image(['athena/images/AIWG.png','athena/images/saai.png'])
