@@ -117,44 +117,36 @@ elif selection == 'Feminist Animations':
 
         st.video('athena/animations/v3q3.mp4')
 
-        st.subheader('Credits')
-        st.markdown('**Music**')
-        st.markdown('*Demised To Shield* by Ghostrifter Official | https://soundcloud.com/ghostrifter-official Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
-        st.markdown('*I have not fear* by Damiano Baldoni | https://soundcloud.com/damiano_baldoni Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
-        st.markdown('*The Road Home* by Alexander Nakarada | https://www.serpentsoundstudios.com Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
-
-        st.markdown('**Codes**')
-        st.markdown('All code rights for generating videos from images and mp3 music reserved to https://www.codespeedy.com/convert-audio-to-video-using-static-images-in-python/')
-        st.markdown('All Dalle-mini (this notebook code) code is taken from Hugging Face : https://github.com/borisdayma/dalle-mini')
-
-
 elif selection == 'Contribute':
         st.image('athena/images/athena.png')
 
         st.header("Contribute to this Project")
-        st.write('About blablabla')
+        st.markdown('Get in contact')
+        
+        st.subheader("This application can be enhanced with ")
+        st.write("* QnA NLP system for user to query any topic/solution.")
 
 
-elif selection == 'Further Scope & Credits':
+
+elif selection == 'Credits':
         st.image('athena/images/athena.png')
 
         st.image('athena/images/AIWG.png')
         st.subheader('Intended Audience:')
         st.write("The mitigation assistant application can be used by industry,policy makers, communities,and general public in adapting to the climate effects relevant to their sector and helps in climate mitigation solution planning implemetation" )
-        st.subheader("This application can be enhanced with ")
-        st.write("* QnA NLP system for user to query any topic/solution.")
-        st.write("* Adding more portals for climate study and solutions.")
-        st.write("* Support industries/communities in implementation of solutions.")
-        st.write("* Provide rating  for industries/policies on effeciency and impact of solutions.")
-        st.write("* Motivate general public in raising awareness on climate solutions.")
-        st.write("* Promote public, private partnerships  in implementation of climate solutions.")
-
-        st.subheader("Credits:")
-        st.write("* https://impactlab.org")
-        st.write("* https://drawdown.org")
-        st.write("* https://datahub.io/core/global-temp")
-        st.write("* https://www.epa.gov/climate-indicators/climate-change-indicators-sea-level")
-        st.write("* https://databank.worldbank.org/source/millennium-development-goals# ") 
+      
+        st.subheader('Credits')
+        st.markdown('**Music**')
+        st.markdown('*Demised To Shield* by Ghostrifter Official | https://soundcloud.com/ghostrifter-official') 
+        st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
+        st.markdown('*I have not fear* by Damiano Baldoni | https://soundcloud.com/damiano_baldoni')
+        st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
+        st.markdown('*The Road Home* by Alexander Nakarada | https://www.serpentsoundstudios.com')
+        st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
+        
+        st.markdown('**Codes**')
+        st.markdown('All code rights for generating video animations from images and mp3 music reserved to https://www.codespeedy.com/convert-audio-to-video-using-static-images-in-python/')
+        st.markdown('All images in the animations were generated using Dalle-mini code from Hugging Face : https://github.com/borisdayma/dalle-mini')
 
 
 
