@@ -31,13 +31,20 @@ if selection == 'Home':
         st.image('athena/images/athena.png')
         st.header('Women & AI Art')
         st.write("Welcome to the ATHENA Art Assistant, the first AI-based art assistant that promotes the work of female (and minorities) artists. ")
+
         st.markdown("**ATHENA will introduce you to a whole new world of AI art based on the work of female artists.**")
-        st.image('athena/images/front.png', width= 400)
+        st.image('athena/images/front.png', width= 350)
 
         st.markdown("**ATHENA employs advanced AI technologies to generate multiple forms of art. At the same time, the assistant also helps users to learn more about the work of minorities.**")
-
+        
         st.image('athena/images/functionalities.png', width= 800)
-
+        st.markdown('The art works are built with open source resources (data and code) as a community effort from both the Arts and AI worlds.')  
+        
+        st.markdown('The ATHENA Art Assistant project is one of the winners of the [SAAI Factory hackathon] about Art and AI. As part of the prize, this project is currently on display in art exhibitions worldwide.')  
+        
+        url = 'https://www.youtube.com/watch?v=F4CJyS3ZBoc'
+        st.video(url)
+        
         st.subheader("Credits")
         st.image(['athena/images/AIWG.png','athena/images/saai.png'])
 
