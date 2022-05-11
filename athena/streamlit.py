@@ -52,6 +52,22 @@ elif selection == 'Poetry':
 
         st.header("ATHENA Poetry inspired by Female & Non-binary artists")
         st.write('About blablabla')
+                st.write("Below you can ...")
+        source = st.selectbox("Select data source:", ['LGBTQ', 'Race', 'Topic3', 'Topic4','Topic5', 'Topic6'])
+        if source == 'LGBTQ':
+            st.header("Wordcloud")
+            st.markdown('The wordcloud shows the most common words present in the poems used as inspiration for ATHENA.')
+            st.image('athena/poetry/words_lgbt', width=300)
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("**Prior word: Soul**")
+               # st.image('athena/poetry', width=300)
+            with c2:
+                st.markdown("**Prior word: Body**")
+                #st.image('athena/poetry/.jpg', width=300)
+
 
 
 elif selection == 'Painting Style':
