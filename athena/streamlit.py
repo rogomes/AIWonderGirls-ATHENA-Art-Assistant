@@ -123,7 +123,7 @@ elif selection == 'Feminist Animations':
         st.markdown('ATHENA generates Animated Feminist Quotes to present an abstract representation of inspirational quotes from well known feminist writers.')
         
         st.markdown('The technology behind the images in the animations belongs to the field of *Natural Language Processing* and is able to represent a given text as an image.') 
-        st.markdown('For building the animations with ATHENA, selected feminist quotes were processed in the [OpenAI DALLE model](https://openai.com/blog/dall-e/)' which associates an image to the whole sentence.)
+        st.markdown('For building the animations with ATHENA, selected feminist quotes were processed in the [OpenAI DALLE model](https://openai.com/blog/dall-e/) which associates an image to the whole sentence.')
         st.markdown('Putting multiple generated images together in a video (with selected open source audio music), the quotes serve as an inspiration for the resulting animation.')
 
 
