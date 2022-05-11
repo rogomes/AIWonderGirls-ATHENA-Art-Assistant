@@ -68,7 +68,8 @@ elif selection == 'Painting Style':
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_4.jpg", width=230 , caption='["Water Lilies and Japanese Bridge"](https://artmuseum.princeton.edu/collections/objects/31852), by Claude Monet')
+                st.image("athena/style/content_4.jpg", width=230)
+                st.markdown('[*Water Lilies and Japanese Bridge*](https://artmuseum.princeton.edu/collections/objects/31852), by Claude Monet')
 
             with col2:
                 st.header("Athena Generated")
