@@ -47,11 +47,11 @@ elif selection == 'Painting Style':
         st.write("Below you can ...")
         source = st.selectbox("Select data source:", ['Mary Cassatt, Self Portrait', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Mary Cassatt, Self Portrait':
-
+            st.header("Original Style")
             c1, c2 = st.columns(2)
 
             with c1:
-                st.header("Original Style")
+                
                 st.markdown("[Self Portrait](https://npg.si.edu/object/npg_NPG.76.33), by Mary Cassatt")
                 st.image('athena/style/style_2.jpg', width=300)
             with c2:
