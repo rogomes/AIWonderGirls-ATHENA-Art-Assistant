@@ -322,6 +322,7 @@ elif selection == 'Credits':
         st.markdown('This project is an open source product developed by the AI Wonder Girls team.')
         st.image('athena/images/AIWG.png')
         st.header('Credits')
+
         st.subheader('**Data**')
         st.markdown('*Poetry* was collected from the open source [Poetry Foundation](https://www.poetryfoundation.org/) dataset from Kaggle | https://www.kaggle.com/datasets/johnhallman/complete-poetryfoundationorg-dataset')
         st.markdown('*Paintings* were collected from the open source Smithsonian exhibitiion *Because of her Story*  | https://womenshistory.si.edu/')
@@ -335,10 +336,13 @@ elif selection == 'Credits':
         st.markdown('*The Road Home* by Alexander Nakarada | https://www.serpentsoundstudios.com')
         st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
         
-        st.subheader('**Codes**')
-        st.markdown('All code rights for generating video animations from images and mp3 music reserved to https://www.codespeedy.com/convert-audio-to-video-using-static-images-in-python/')
+        st.subheader('**Code**')
         st.markdown('All images in the animations were generated using Dalle-mini code from Hugging Face : https://github.com/borisdayma/dalle-mini')
+        st.markdown('This application is built with Streamlit | https://streamlit.io/')
 
+        st.subheader('Other')
+        st.markdown('All artists biographies displayed in this application were taken from Wikipedia | https://www.wikipedia.org')
+        st.markdown('All code rights for generating video animations from images and mp3 music reserved to https://www.codespeedy.com/convert-audio-to-video-using-static-images-in-python')
 
 
 
