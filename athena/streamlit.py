@@ -151,7 +151,7 @@ elif selection == 'Painting Style':
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_2.jpg", width=270)
+                st.image("athena/style/content_2.jpg", width=300)
                 st.markdown('[*The Tooth Puller*](https://en.wikipedia.org/wiki/Paintings_attributed_to_Caravaggio), by Caravaggio')
 
             with col2:
