@@ -212,7 +212,7 @@ elif selection == 'Painting Style':
             col1, col2 = st.columns(2)
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_6.jpg", width=150)
+                st.image("athena/style/content_6.jpg", width=230)
                 st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
 
             with col2:
@@ -244,7 +244,7 @@ elif selection == 'Painting Style':
             col1, col2 = st.columns(2)
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_6.jpg", width=150)
+                st.image("athena/style/content_6.jpg", width=230)
                 st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
 
             with col2:
