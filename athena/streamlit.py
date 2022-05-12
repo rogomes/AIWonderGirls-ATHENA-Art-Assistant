@@ -395,7 +395,7 @@ elif selection == 'Painting Style':
             with c1:
                 
                 st.markdown("[Piano concerto](https://womenshistory.si.edu/object/saam_1998.59), by Lila Oliver Asher")
-                st.image('athena/style/style_6.jpg', width=250)
+                st.image('athena/style/style_6.jpg', width=300)
             with c2:
                 st.markdown("""[ Lila Oliver Asher](https://www.lilaoliverasher.com) was born in Philadelphia, Pa. She studied there with Joseph Grossman, Frank B.A. Linton and at the Fleischer Memorial Art School. She was also a pupil of Prof. Gonippo Raggi and held a four year scholarship to the now University of the Arts. She moved to Washington D.C. in 1946 and established a studio for painting, sculpture and prints. She taught art at the college level from 1947, as instructor in the Art Department of Howard University 1947-51, at Wilson Teachers College 1953-54, returning to Howard University in 1961, promoted to Assistant Professor in 1964, to Associate Professor in 1966, and to full Professor in 1971. She was named a Howard University Professor Emeritus upon her retirement from teaching in 1991, and continued to work in her studio producing works until her death in February 2021.(*source: https://www.lilaoliverasher.com/bio*)""")
         
@@ -408,7 +408,7 @@ elif selection == 'Painting Style':
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s6c5.jpg", width=270)
+                st.image("athena/style/s6c5.jpg", width=300)
                 st.markdown('')
 
             with col1:
