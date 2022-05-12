@@ -42,7 +42,7 @@ if selection == 'Home':
         st.markdown("""More funcionalities are already in development and soon will be available in the application. If you are interested in contributing to this project, check the **Contribute** page for more information. """)
         st.image('athena/images/functionalities.png', width= 800)
         
-        st.markdown('The ATHENA Art Assistant project is one of the winners of the [SAAI Factory hackathon] about Art and AI. As part of the prize, this project is currently on display in art exhibitions worldwide.')  
+        st.markdown('The ATHENA Art Assistant project is one of the winners of the [SAAI Factory hackathon](https://saai-factory.com/) about Art and AI. As part of the prize, this project is currently on display in art exhibitions worldwide.')  
         
         url = 'https://www.youtube.com/watch?v=F4CJyS3ZBoc'
         st.video(url)
@@ -63,9 +63,12 @@ elif selection == 'About':
         st.markdown('This project started during the SAAI Factory hackathon in August 2021, with the [AI Wonder Girls](https://www.linkedin.com/company/80952123/) team. The AI Wonder Girls are an all-female team from all over the world contributing to open source social impact projects.')
         st.image('athena/images/team.png')
 
-        st.markdown("""Visit the project's page at Devpost:""")
+        st.markdown("""Visit this project's page at Devpost:""")
         st.markdown('https://devpost.com/software/athena-art-assistant')
-
+        
+        st.markdown("""Visit SAAI Factory's page for more exhibitions:""")
+        st.markdown('https://saai-factory.com/')
+        
         st.subheader('Intended Audience:')
         st.write("""The ATHENA Art assistant application can be used by a broad public ranging from artists and technology professionals to the 
         general public. Suggestions of use include (but not only):""")
@@ -317,9 +320,13 @@ elif selection == 'Credits':
 
         st.markdown('This project is an open source product developed by the AI Wonder Girls team.')
         st.image('athena/images/AIWG.png')
-      
-        st.subheader('Credits')
-        st.markdown('**Music**')
+        st.header('Credits')
+        st.subheader('**Data**')
+        st.markdown('*Poetry* was collected from the open source [Poetry Foundation](https://www.poetryfoundation.org/) dataset from Kaggle | https://www.kaggle.com/datasets/johnhallman/complete-poetryfoundationorg-dataset')
+        st.markdown('*Paintings* were collected from the open source Smithsonian exhibitiion *Because of her Story*  | https://womenshistory.si.edu/')
+
+
+        st.subheader('**Music**')
         st.markdown('*Demised To Shield* by Ghostrifter Official | https://soundcloud.com/ghostrifter-official') 
         st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
         st.markdown('*I have not fear* by Damiano Baldoni | https://soundcloud.com/damiano_baldoni')
@@ -327,7 +334,7 @@ elif selection == 'Credits':
         st.markdown('*The Road Home* by Alexander Nakarada | https://www.serpentsoundstudios.com')
         st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
         
-        st.markdown('**Codes**')
+        st.subheader('**Codes**')
         st.markdown('All code rights for generating video animations from images and mp3 music reserved to https://www.codespeedy.com/convert-audio-to-video-using-static-images-in-python/')
         st.markdown('All images in the animations were generated using Dalle-mini code from Hugging Face : https://github.com/borisdayma/dalle-mini')
 
