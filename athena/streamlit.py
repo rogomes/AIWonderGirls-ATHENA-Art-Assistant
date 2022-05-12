@@ -304,9 +304,8 @@ elif selection == 'Painting Style':
                 st.header("Athena Generated")
                 st.image("athena/style/s4c7.jpg", width=230)
 
-style 5 manhattan Georgia O'Keeffe https://womenshistory.si.edu/object/saam_1995.3.1
-style 6 piano concerto, Lila Oliver Asher https://womenshistory.si.edu/object/saam_1998.59
-style 7 Parting the Waters, from the portfolio Drawn to Stone, Ruth Weisberg https://womenshistory.si.edu/object/saam_1998.156.26
+#style 6 piano concerto, Lila Oliver Asher https://womenshistory.si.edu/object/saam_1998.59
+#style 7 Parting the Waters, from the portfolio Drawn to Stone, Ruth Weisberg https://womenshistory.si.edu/object/saam_1998.156.26
 
         if source == "Georgia O'Keeffe, Manhattan": 
             st.header("Original Style")
