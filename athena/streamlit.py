@@ -118,7 +118,7 @@ elif selection == 'Painting Style':
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
 
         st.write("Below you can select the artist you would like to see the style.")
-        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking',"Georgia O'Keeffe, Manhattan", 'Painter6','Painter7', 'Painter8'])
+        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking',"Georgia O'Keeffe, Manhattan", 'Lila Oliver Asher, Piano concerto','Painter7', 'Painter8'])
         if source == 'Romaine Brooks, Self Portrait':
             st.header("Original Style")
             c1, c2 = st.columns(2)
@@ -304,8 +304,6 @@ elif selection == 'Painting Style':
                 st.header("Athena Generated")
                 st.image("athena/style/s4c7.jpg", width=230)
 
-#style 6 piano concerto, Lila Oliver Asher https://womenshistory.si.edu/object/saam_1998.59
-#style 7 Parting the Waters, from the portfolio Drawn to Stone, Ruth Weisberg https://womenshistory.si.edu/object/saam_1998.156.26
 
         if source == "Georgia O'Keeffe, Manhattan": 
             st.header("Original Style")
@@ -362,70 +360,66 @@ elif selection == 'Painting Style':
                 st.header("Athena Generated")
                 st.image("athena/style/s5c13.jpg", width=270)
 
+#style 7 Parting the Waters, from the portfolio Drawn to Stone, Ruth Weisberg https://womenshistory.si.edu/object/saam_1998.156.26
+#style 8 Noble Numbers, Alice Baber, https://womenshistory.si.edu/object/saam_1965.20
+#style 9 Beatrice wood, by Alice Matzkin https://womenshistory.si.edu/object/npg_S_NPG.94.127
+#style 10 The Artist as a Young Woman, portfolio,    Carol Sutton https://womenshistory.si.edu/object/saam_1968.144.5
+#style 11 Deuxieme Peril, from the portfolio Les 7 Perils Spectraux
+#Dorothea Tanning https://womenshistory.si.edu/object/saam_1995.43.2
+#Dorothea Tanning Second Peril (Deuxième péril) from The 7 Spectral Perils (Les 7 périls spectraux) 1950
+#https://en.wikipedia.org/wiki/Dorothea_Tanning
+#style 12 Quill-Leaf Tillandsia (Tillandsia fasciculata) Mary Vaux Walcott https://womenshistory.si.edu/object/saam_1970.355.736
+#style 13 Quarry Spider Sheila Hicks https://womenshistory.si.edu/object/chndm_2006-13-7
+#style 14 beds for dream Carmen Lomas Garza https://womenshistory.si.edu/object/hmsg_96.5
 
-        if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
+#content 1 https://en.wikipedia.org/wiki/Mona_Lisa Monalisa (Leonardo da Vinci)
+#content 2 https://en.wikipedia.org/wiki/Paintings_attributed_to_Caravaggio (The Tooth Puller - Caravaggio)
+#content 3 https://en.wikipedia.org/wiki/Dogs_Playing_Poker ( Cassius Marcellus Coolidge)
+#content 4 Water Lilies and Japanese Bridge (claude Monet) 
+#content 5 https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird (Frida Kahlo)
+#content 6 https://en.wikipedia.org/wiki/Flaming_June (	Frederic Leighton)
+#content 7 https://en.wikipedia.org/wiki/The_Starry_Night (Vincent Van Gogh)
+#content 8 https://en.wikipedia.org/wiki/The_Scream (	Edvard Munch)
+#content 9 https://en.wikipedia.org/wiki/The_Kiss_(Klimt)  (Gustav Klimt) 
+#content 10 https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring Johannes Vermeer)
+#content 11 https://en.wikipedia.org/wiki/The_Birth_of_Venus (Sandro Botticelli)
+#content 12 https://en.wikipedia.org/wiki/The_Weeping_Woman (Pablo Picasso)
+#content 13 https://en.wikipedia.org/wiki/Whistler%27s_Mother (r James Abbott McNeill Whistler)
+#content 14 https://en.wikipedia.org/wiki/The_School_of_Athens (Raphael)
+
+
+        if source == 'Lila Oliver Asher, Piano concerto': 
             st.header("Original Style")
             c1, c2 = st.columns(2)
 
             with c1:
                 
-                st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
-                st.image('athena/style/style_4.jpg', width=250)
+                st.markdown("[Piano concerto](https://womenshistory.si.edu/object/saam_1998.59), by Lila Oliver Asher")
+                st.image('athena/style/style_6.jpg', width=250)
             with c2:
-                st.markdown("""[Suzy Frelinghuysen](https://en.wikipedia.org/wiki/Suzy_Frelinghuysen) (May 7, 1911 - March 19, 1988), also known as **Suzy Morris**, was an American abstract painter and opera singer. (*source: Wikipedia*)""")
+                st.markdown("""[ Lila Oliver Asher](https://www.lilaoliverasher.com) was born in Philadelphia, Pa. She studied there with Joseph Grossman, Frank B.A. Linton and at the Fleischer Memorial Art School. She was also a pupil of Prof. Gonippo Raggi and held a four year scholarship to the now University of the Arts. She moved to Washington D.C. in 1946 and established a studio for painting, sculpture and prints. She taught art at the college level from 1947, as instructor in the Art Department of Howard University 1947-51, at Wilson Teachers College 1953-54, returning to Howard University in 1961, promoted to Assistant Professor in 1964, to Associate Professor in 1966, and to full Professor in 1971. She was named a Howard University Professor Emeritus upon her retirement from teaching in 1991, and continued to work in her studio producing works until her death in February 2021.(*source: https://www.lilaoliverasher.com/bio*)""")
         
             
             col1, col2 = st.columns(2)
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_6.jpg", width=230)
-                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
+                st.image("athena/style/content_5.jpg", width=230)
+                st.markdown('[*Self-Portrait_with_Thorn_Necklace_and_Hummingbird*](https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird), by [Frida Kahlo](https://en.wikipedia.org/wiki/Frida_Kahlo)')
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s4c6.jpg", width=230)
+                st.image("athena/style/s6c5.jpg", width=230)
                 st.markdown('')
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_7.jpg", width=270)
-                st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
+                st.image("athena/style/content_9.jpg", width=270)
+                st.markdown('[*The Kiss*](https://en.wikipedia.org/wiki/The_Kiss_(Klimt)), by Gustav Klimt')
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s4c7.jpg", width=230)
+                st.image("athena/style/s6c9.jpg", width=270)
 
-        if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
-            st.header("Original Style")
-            c1, c2 = st.columns(2)
-
-            with c1:
-                
-                st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
-                st.image('athena/style/style_4.jpg', width=250)
-            with c2:
-                st.markdown("""[Suzy Frelinghuysen](https://en.wikipedia.org/wiki/Suzy_Frelinghuysen) (May 7, 1911 - March 19, 1988), also known as **Suzy Morris**, was an American abstract painter and opera singer. (*source: Wikipedia*)""")
-        
-            
-            col1, col2 = st.columns(2)
-            with col1:
-                st.header("Original Image")
-                st.image("athena/style/content_6.jpg", width=230)
-                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
-
-            with col2:
-                st.header("Athena Generated")
-                st.image("athena/style/s4c6.jpg", width=230)
-                st.markdown('')
-
-            with col1:
-                st.header("Original Image")
-                st.image("athena/style/content_7.jpg", width=270)
-                st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
-
-            with col2:
-                st.header("Athena Generated")
-                st.image("athena/style/s4c7.jpg", width=230)
 
 
 
