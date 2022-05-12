@@ -118,7 +118,7 @@ elif selection == 'Painting Style':
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
 
         st.write("Below you can select the artist you would like to see the style.")
-        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
+        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Romaine Brooks, Self Portrait':
             st.header("Original Style")
             c1, c2 = st.columns(2)
