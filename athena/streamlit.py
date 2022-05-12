@@ -92,7 +92,7 @@ elif selection == 'Poetry':
         st.write("Below you can select the topics of poetry that you would like to see.")
         st.markdown('🚧 This module is under construction, so you may find new poetry in the future.')
         
-        source = st.selectbox("Select data source:", ['LGBTQ', 'Race', 'Topic3', 'Topic4','Topic5', 'Topic6'])
+        source = st.selectbox("Select data source:", ['LGBTQ'])
   
         if source == 'LGBTQ':
             st.subheader("Wordcloud")
@@ -124,7 +124,7 @@ elif selection == 'Painting Style':
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
         st.markdown('🚧 This module is under construction, so you may find new poetry in the future.')
         st.write("Below you can select the artist you would like to see the style.")
-        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking',"Georgia O'Keeffe, Manhattan", 'Lila Oliver Asher, Piano concerto','Painter7', 'Painter8'])
+        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking',"Georgia O'Keeffe, Manhattan", 'Lila Oliver Asher, Piano concerto'])
         if source == 'Romaine Brooks, Self Portrait':
             st.header("Original Style")
             c1, c2 = st.columns(2)
