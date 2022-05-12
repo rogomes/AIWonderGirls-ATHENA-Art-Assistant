@@ -36,15 +36,19 @@ if selection == 'Home':
         st.image('athena/images/front.png', width= 350)
 
         st.markdown("**ATHENA employs advanced AI technologies to generate multiple forms of art. At the same time, the assistant also helps users to learn more about the work of minorities.**")
-        
+        st.markdown("""The application utilizes AI models trained on the work of female, non-binary and transgender artists.""")
+
+        st.markdown('ATHENA create its own art work based on art pieces of female artists. As its initial prototype, ATHENA inspires users to create poems, change the style of pictures and visualize animations based on open source art work from female artists and/or feminist themes').
+        st.markdown("""More funcionalities are already in development and soon will be available in the application. If you are interested in contributing to this project, check the **Contribute** page for more information. """)
         st.image('athena/images/functionalities.png', width= 800)
-        st.markdown('The art works are built with open source resources (data and code) as a community effort from both the Arts and AI worlds.')  
         
         st.markdown('The ATHENA Art Assistant project is one of the winners of the [SAAI Factory hackathon] about Art and AI. As part of the prize, this project is currently on display in art exhibitions worldwide.')  
         
         url = 'https://www.youtube.com/watch?v=F4CJyS3ZBoc'
         st.video(url)
         
+        st.markdown('The art works are built with open source resources (data and code) as a community effort from both the Arts and AI worlds.')
+
         st.subheader("Credits")
         st.image(['athena/images/AIWG.png','athena/images/saai.png'])
 
