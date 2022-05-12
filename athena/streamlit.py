@@ -54,9 +54,21 @@ elif selection == 'About':
         st.header("Empowering and inspiring artists through AI")
         st.write('The goal of this project is to bring awareness about the gender gap in both the technology and arts fields.')
         st.image('athena/images/inspiration1.png')
+        st.markdown('The ATHENA Art Assistant is named after the greek godess of knowledge, reason and handicraft, in order to honor and represent the union of Art and technology in this project.')
 
-        st.write('This project started during the SAAI Factory hackathon in August 2021, with the AI Wonder Girls team.')
+        st.markdown('This project started during the SAAI Factory hackathon in August 2021, with the [AI Wonder Girls](https://www.linkedin.com/company/80952123/) team. The AI Wonder Girls are an all-female team from all over the world contributing to open source social impact projects.')
         st.image('athena/images/team.png')
+
+        st.markdown("""Visit the project's page at Devopost""")
+        st.markdown('https://devpost.com/software/athena-art-assistant')
+
+        st.subheader('Intended Audience:')
+        st.write("""The ATHENA Art assistant application can be used by a broad public ranging from artists and technology professionals to the 
+        general public. Suggestions of use include (but not only):""")
+        st.markdown('**Artists:** promote the work of female, transgender and non-binary artists through the general public, as well as provide art inspiration through artificial intelligence technology')
+        st.markdown('**General Public:** get familiar with the work of female, transgender and non-binary artists while fostering curiosity and literacy on artificial intelligence technology.')
+        st.markdown('**Technology Professional:** engage on a fascinating application of advanced AI techniques through an open source initiative lead by an all-women developers team.')
+
 
         st.image(['athena/images/AIWG.png','athena/images/saai.png'])
 
@@ -301,13 +313,6 @@ elif selection == 'Credits':
 
         st.markdown('This project is an open source product developed by the AI Wonder Girls team.')
         st.image('athena/images/AIWG.png')
-        st.subheader('Intended Audience:')
-        st.write("""The ATHENA Art assistant application can be used by a broad public ranging from artists and technology professionals to the 
-        general public. Suggestions of use include (but not only):""")
-        st.markdown('**Artists:** promote the work of female, transgender and non-binary artists through the general public, as well as provide art inspiration through artificial intelligence technology')
-        st.markdown('**General Public:** get familiar with the work of female, transgender and non-binary artists while fostering curiosity and literacy on artificial intelligence technology.')
-        st.markdown('**Technology Professional:** engage on a fascinating application of advanced AI techniques through an open source initiative lead by an all-women developers team.')
-
       
         st.subheader('Credits')
         st.markdown('**Music**')
