@@ -160,7 +160,7 @@ elif selection == 'Painting Style':
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_1.jpg", width=230)
+                st.image("athena/style/content_1.jpg", width=200)
                 st.markdown('[*Monalisa*](https://en.wikipedia.org/wiki/Mona_Lisa), by Leonardo da Vinci')
 
             with col2:
