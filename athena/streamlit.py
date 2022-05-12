@@ -329,12 +329,13 @@ elif selection == 'Credits':
 
 
         st.subheader('**Music**')
+        st.markdown('All music in the animations is promoted by https://www.chosic.com/free-music/all/')
         st.markdown('*Demised To Shield* by Ghostrifter Official | https://soundcloud.com/ghostrifter-official') 
-        st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
+        st.markdown('Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
         st.markdown('*I have not fear* by Damiano Baldoni | https://soundcloud.com/damiano_baldoni')
-        st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
+        st.markdown('Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
         st.markdown('*The Road Home* by Alexander Nakarada | https://www.serpentsoundstudios.com')
-        st.markdown('Music promoted by https://www.chosic.com/free-music/all/ Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
+        st.markdown('Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
         
         st.subheader('**Code**')
         st.markdown('All images in the animations were generated using Dalle-mini code from Hugging Face : https://github.com/borisdayma/dalle-mini')
