@@ -166,6 +166,7 @@ elif selection == 'Painting Style':
             with col2:
                 st.header("Athena Generated")
                 st.image("athena/style/s2c1.jpg", width=230)
+                st.markdown('')
 
             with col1:
                 st.header("Original Image")
