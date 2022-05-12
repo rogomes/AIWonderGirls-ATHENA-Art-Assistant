@@ -206,7 +206,18 @@ elif selection == 'Painting Style':
                 st.markdown("[My Landscape II](https://womenshistory.si.edu/object/saam_1980.137.82), by Joan Mitchell")
                 st.image('athena/style/style_3.jpg', width=250)
             with c2:
-                st.markdown("""[Joan Mitchell](), (*source: Wikipedia*)""")
+                st.markdown("""[Joan Mitchell](https://en.wikipedia.org/wiki/Joan_Mitchell) (February 12, 1925 - October 30, 1992) was an American artist who 
+                worked primarily in painting and printmaking, and also used pastel and made other works on paper. 
+                She was an active participant in the New York School of artists in the 1950s. A native of Chicago, 
+                she is associated with the American abstract expressionist movement, even though she lived in France for much of her career. 
+                Mitchell's emotionally intense style and its gestural brushwork were influenced by nineteenth-century post-impressionist painters, 
+                particularly Henri Matisse. Memories of landscapes inspired her compositions; she famously told art critic Irving Sandler, 
+                "I carry my landscapes around with me." Her later work was informed and constrained by her declining health. 
+                Mitchell was one of her era's few female painters to gain critical and public acclaim. Her paintings, drawings, 
+                and editioned prints can be seen in major museums and collections around the world, and have sold for record-breaking prices. 
+                In 2021, the San Francisco Museum of Modern Art and Baltimore Museum of Art co-organized a comprehensive retrospective of her work.
+                In her will, Mitchell provided for the creation of the Joan Mitchell Foundation, a non-profit corporation that awards grants 
+                and fellowships to working artists and maintains her archives. (*source: Wikipedia*)""")
         
             
             col1, col2 = st.columns(2)
@@ -238,7 +249,7 @@ elif selection == 'Painting Style':
                 st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
                 st.image('athena/style/style_4.jpg', width=250)
             with c2:
-                st.markdown("""[Suzy Frelinghuysen](), (*source: Wikipedia*)""")
+                st.markdown("""[Suzy Frelinghuysen](https://en.wikipedia.org/wiki/Suzy_Frelinghuysen) (May 7, 1911 - March 19, 1988), also known as **Suzy Morris**, was an American abstract painter and opera singer. (*source: Wikipedia*)""")
         
             
             col1, col2 = st.columns(2)
