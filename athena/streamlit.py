@@ -38,7 +38,7 @@ if selection == 'Home':
         st.markdown("**ATHENA employs advanced AI technologies to generate multiple forms of art. At the same time, the assistant also helps users to learn more about the work of minorities.**")
         st.markdown("""The application utilizes AI models trained on the work of female, non-binary and transgender artists.""")
 
-        st.markdown('ATHENA create its own art work based on art pieces of female artists. As its initial prototype, ATHENA inspires users to create poems, change the style of pictures and visualize animations based on open source art work from female artists and/or feminist themes').
+        st.markdown('ATHENA create its own art work based on art pieces of female artists. As its initial prototype, ATHENA inspires users to create poems, change the style of pictures and visualize animations based on open source art work from female artists and/or feminist themes')
         st.markdown("""More funcionalities are already in development and soon will be available in the application. If you are interested in contributing to this project, check the **Contribute** page for more information. """)
         st.image('athena/images/functionalities.png', width= 800)
         
