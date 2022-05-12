@@ -1,0 +1,34 @@
+style 1 self portrait Romaine Brooks https://womenshistory.si.edu/object/saam_1966.49.1
+style 2 Mary Cassatt Self-Portrait, https://womenshistory.si.edu/object/npg_NPG.76.33
+style 3 my landscape ii, Joan Mitchell https://womenshistory.si.edu/object/saam_1980.137.82
+style 4 Composition--Toreador Drinking, Suzy Frelinghuysen https://womenshistory.si.edu/object/saam_1994.28
+style 5 manhattan Georgia O'Keeffe https://womenshistory.si.edu/object/saam_1995.3.1
+style 6 piano concerto, Lila Oliver Asher https://womenshistory.si.edu/object/saam_1998.59
+style 7 Parting the Waters, from the portfolio Drawn to Stone, Ruth Weisberg https://womenshistory.si.edu/object/saam_1998.156.26
+style 8 Noble Numbers, Alice Baber, https://womenshistory.si.edu/object/saam_1965.20
+style 9 Beatrice wood, by Alice Matzkin https://womenshistory.si.edu/object/npg_S_NPG.94.127
+style 10 The Artist as a Young Woman, portfolio,    Carol Sutton https://womenshistory.si.edu/object/saam_1968.144.5
+style 11 Deuxieme Peril, from the portfolio Les 7 Perils Spectraux
+Dorothea Tanning https://womenshistory.si.edu/object/saam_1995.43.2
+Dorothea Tanning Second Peril (Deuxième péril) from The 7 Spectral Perils (Les 7 périls spectraux) 1950
+https://en.wikipedia.org/wiki/Dorothea_Tanning
+style 12 Quill-Leaf Tillandsia (Tillandsia fasciculata) Mary Vaux Walcott https://womenshistory.si.edu/object/saam_1970.355.736
+style 13 Quarry Spider Sheila Hicks https://womenshistory.si.edu/object/chndm_2006-13-7
+style 14 beds for dream Carmen Lomas Garza https://womenshistory.si.edu/object/hmsg_96.5
+
+content 1 https://en.wikipedia.org/wiki/Mona_Lisa Monalisa (Leonardo da Vinci)
+content 2 https://en.wikipedia.org/wiki/Paintings_attributed_to_Caravaggio (The Tooth Puller - Caravaggio)
+content 3 https://en.wikipedia.org/wiki/Dogs_Playing_Poker ( Cassius Marcellus Coolidge)
+content 4 Water Lilies and Japanese Bridge (claude Monet) 
+content 5 https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird (Frida Kahlo)
+content 6 https://en.wikipedia.org/wiki/Flaming_June (	Frederic Leighton)
+content 7 https://en.wikipedia.org/wiki/The_Starry_Night (Vincent Van Gogh)
+content 8 https://en.wikipedia.org/wiki/The_Scream (	Edvard Munch)
+content 9 https://en.wikipedia.org/wiki/The_Kiss_(Klimt)  (Gustav Klimt) 
+content 10 https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring Johannes Vermeer)
+content 11 https://en.wikipedia.org/wiki/The_Birth_of_Venus (Sandro Botticelli)
+content 12 https://en.wikipedia.org/wiki/The_Weeping_Woman (Pablo Picasso)
+content 13 https://en.wikipedia.org/wiki/Whistler%27s_Mother (r James Abbott McNeill Whistler)
+content 14 https://en.wikipedia.org/wiki/The_School_of_Athens (Raphael)
+
+https://en.wikipedia.org/wiki/Frida_Kahlo

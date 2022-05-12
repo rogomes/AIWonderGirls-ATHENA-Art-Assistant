@@ -94,10 +94,50 @@ elif selection == 'Painting Style':
         st.image('athena/images/athena.png')
 
         st.header("Female Painting Style")
-        st.write('About blablabla')
+        st.markdown('ATHENA applies [*Style Transfer*]() techniques to learn the style of an image and apply it to another one.')
+        st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
 
-        st.write("Below you can ...")
-        source = st.selectbox("Select data source:", ['Mary Cassatt, Self Portrait', 'Painter2', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
+        st.write("Below you can select the artist you would like to see the style.")
+        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
+        if source == 'Romaine Brooks, Self Portrait':
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Self Portrait]( https://womenshistory.si.edu/object/saam_1966.49.1), by Romaine Brooks")
+                st.image('athena/style/style_1.jpg', width=300)
+            with c2:
+                st.markdown("""[Romaine Brooks](https://en.wikipedia.org/wiki/Romaine_Brooks) (born Beatrice Romaine Goddard; May 1, 
+                1874 - December 7, 1970) was an American painter who worked mostly in Paris and Capri. 
+                She specialized in portraiture and used a subdued tonal palette keyed to the color gray. 
+                Brooks ignored contemporary artistic trends such as Cubism and Fauvism, drawing on her own original aesthetic inspired by the 
+                works of Charles Conder, Walter Sickert, and James McNeill Whistler. Her subjects ranged from anonymous models to titled aristocrats. 
+                She is best known for her images of women in androgynous or masculine dress, including her self-portrait of 1923, 
+                which is her most widely reproduced work. Brooks had an unhappy childhood after her alcoholic father abandoned the family; 
+                her mother was emotionally abusive and her brother mentally ill. By her own account, her childhood cast a shadow over her whole life. 
+                She spent several years in Italy and France as a poor art student, then inherited a fortune upon her mother's death in 1902. 
+                Wealth gave her the freedom to choose her own subjects. She often painted people close to her, 
+                such as the Italian writer and politician Gabriele D'Annunzio, the Russian dancer Ida Rubinstein, and her partner of 
+                more than 50 years, the writer Natalie Barney. Although she lived until 1970, it is erroneously believed that she painted very 
+                little after 1925 despite evidence to the contrary. She made a series of drawings during the 1930s, using an 
+                *unpremeditated* techniques predating automatic drawing. She spent time in New York City in the mid 1930s, 
+                completing portraits of Carl Van Vechten and Muriel Draper. Many of her works are unaccounted for, 
+                but photographic reproductions attest to her ongoing artwork. 
+                It is thought to have culminated in her 1961 portrait of Duke Uberto Strozzi. (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_2.jpg", width=230)
+                st.markdown('[*The Tooth Puller*](https://en.wikipedia.org/wiki/Paintings_attributed_to_Caravaggio), by Caravaggio')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s1c2.jpg", width=230)
+
         if source == 'Mary Cassatt, Self Portrait':
             st.header("Original Style")
             c1, c2 = st.columns(2)
@@ -113,7 +153,7 @@ elif selection == 'Painting Style':
                 Cassatt often created images of the social and private lives of women, with particular emphasis on the intimate bonds 
                 between mothers and children. She was described by Gustave Geffroy as one of "les trois grandes dames" (the three great ladies) 
                 of Impressionism alongside Marie Bracquemond and Berthe Morisot. In 1879, Diego Martelli compared her to Degas, 
-                as they both sought to depict movement, light, and design in the most modern sense.""")
+                as they both sought to depict movement, light, and design in the most modern sense. (*source: Wikipedia*)""")
         
             
             col1, col2 = st.columns(2)
@@ -126,7 +166,6 @@ elif selection == 'Painting Style':
             with col2:
                 st.header("Athena Generated")
                 st.image("athena/style/s2c4.jpg", width=230)
-
            
 elif selection == 'Feminist Animations':
         st.image('athena/images/athena.png')
