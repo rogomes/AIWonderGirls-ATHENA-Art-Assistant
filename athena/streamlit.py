@@ -118,7 +118,7 @@ elif selection == 'Painting Style':
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
 
         st.write("Below you can select the artist you would like to see the style.")
-        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking','Painter5', 'Painter6','Painter7', 'Painter8'])
+        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking',"Georgia O'Keeffe, Manhattan", 'Painter6','Painter7', 'Painter8'])
         if source == 'Romaine Brooks, Self Portrait':
             st.header("Original Style")
             c1, c2 = st.columns(2)
@@ -239,6 +239,162 @@ elif selection == 'Painting Style':
             with col2:
                 st.header("Athena Generated")
                 st.image("athena/style/s3c7.jpg", width=230)
+
+        if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
+                st.image('athena/style/style_4.jpg', width=250)
+            with c2:
+                st.markdown("""[Suzy Frelinghuysen](https://en.wikipedia.org/wiki/Suzy_Frelinghuysen) (May 7, 1911 - March 19, 1988), also known as **Suzy Morris**, was an American abstract painter and opera singer. (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_6.jpg", width=230)
+                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c6.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_7.jpg", width=270)
+                st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c7.jpg", width=230)
+
+        if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
+                st.image('athena/style/style_4.jpg', width=250)
+            with c2:
+                st.markdown("""[Suzy Frelinghuysen](https://en.wikipedia.org/wiki/Suzy_Frelinghuysen) (May 7, 1911 - March 19, 1988), also known as **Suzy Morris**, was an American abstract painter and opera singer. (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_6.jpg", width=230)
+                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c6.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_7.jpg", width=270)
+                st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c7.jpg", width=230)
+
+style 5 manhattan Georgia O'Keeffe https://womenshistory.si.edu/object/saam_1995.3.1
+style 6 piano concerto, Lila Oliver Asher https://womenshistory.si.edu/object/saam_1998.59
+style 7 Parting the Waters, from the portfolio Drawn to Stone, Ruth Weisberg https://womenshistory.si.edu/object/saam_1998.156.26
+
+        if source == "Georgia O'Keeffe, Manhattan": 
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Manhattan](https://womenshistory.si.edu/object/saam_1995.3.1), by Georgia O'Keeffe")
+                st.image('athena/style/style_5.jpg', width=250)
+            with c2:
+                st.markdown("""[Georgia O'Keeffe](https://en.wikipedia.org/wiki/Georgia_O%27Keeffe) (November 15, 1887 - March 6, 1986) 
+                was an American modernist artist. She was known for her paintings of enlarged flowers, New York skyscrapers, 
+                and New Mexico landscapes. O'Keeffe has been called the "Mother of American modernism". In 1905, O'Keeffe began art training 
+                at the School of the Art Institute of Chicago[3] and then the Art Students League of New York. 
+                In 1908, unable to fund further education, she worked for two years as a commercial illustrator and then taught in Virginia, 
+                Texas, and South Carolina between 1911 and 1918. She studied art in the summers between 1912 and 1914 and was introduced 
+                to the principles and philosophies of Arthur Wesley Dow, who created works of art based upon personal style, design, 
+                and interpretation of subjects, rather than trying to copy or represent them. This caused a major change in the way 
+                she felt about and approached art, as seen in the beginning stages of her watercolors from her studies at the 
+                University of Virginia and more dramatically in the charcoal drawings that she produced in 1915 that led to total abstraction. 
+                Alfred Stieglitz, an art dealer and photographer, held an exhibit of her works in 1917. Over the next couple of years, 
+                she taught and continued her studies at the Teachers College, Columbia University. 
+                She moved to New York in 1918 at Stieglitz's request and began working seriously as an artist. 
+                They developed a professional and personal relationship that led to their marriage in 1924. 
+                O'Keeffe created many forms of abstract art, including close-ups of flowers, such as the Red Canna paintings, 
+                that many found to represent vulvas, though O'Keeffe consistently denied that intention. 
+                The imputation of the depiction of women's sexuality was also fueled by explicit and sensuous photographs of 
+                O'Keeffe that Stieglitz had taken and exhibited. O'Keeffe and Stieglitz lived together in New York until 1929, 
+                when O'Keeffe began spending part of the year in the Southwest, which served as inspiration for her paintings of New Mexico 
+                landscapes and images of animal skulls, such as Cow's Skull: Red, White, and Blue and Ram's Head White Hollyhock and Little Hills. 
+                After Stieglitz's death, she lived in New Mexico at Georgia O'Keeffe Home and Studio in 
+                Abiquiú until the last years of her life, when she lived in Santa Fe. In 2014, O'Keeffe's 1932 painting 
+                Jimson Weed/White Flower No. 1 sold for $44,405,000, more than three times the previous world auction record for any female artist.
+                After her death, the Georgia O'Keeffe Museum was established in Santa Fe. (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_8.jpg", width=230)
+                st.markdown('[*The Scream*](https://en.wikipedia.org/wiki/The_Scream), by Edvard Munch')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s5c8.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_13.jpg", width=270)
+                st.markdown('[*Whistler Mother*](https://en.wikipedia.org/wiki/Whistler%27s_Mother), by James Abbott McNeill Whistler')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s5c13.jpg", width=230)
+
+
+        if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
+                st.image('athena/style/style_4.jpg', width=250)
+            with c2:
+                st.markdown("""[Suzy Frelinghuysen](https://en.wikipedia.org/wiki/Suzy_Frelinghuysen) (May 7, 1911 - March 19, 1988), also known as **Suzy Morris**, was an American abstract painter and opera singer. (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_6.jpg", width=230)
+                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c6.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_7.jpg", width=270)
+                st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c7.jpg", width=230)
 
         if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
             st.header("Original Style")
