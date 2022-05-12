@@ -46,6 +46,7 @@ if selection == 'Home':
         
         url = 'https://www.youtube.com/watch?v=F4CJyS3ZBoc'
         st.video(url)
+        st.markdown('Video exhibited at the [SAAI Factory Exhibition at Spazju Kreattiv (Malta)](https://www.kreattivita.org/en/event/saai-factory-exhibition-on-art-and-ai/).')
         
         st.markdown('The art works are built with open source resources (data and code) as a community effort from both the Arts and AI worlds.')
 
