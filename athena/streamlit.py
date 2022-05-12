@@ -331,7 +331,7 @@ elif selection == 'Credits':
         st.subheader('**Music**')
         st.markdown('All music in the animations is promoted by https://www.chosic.com/free-music/all/')
 
-        st.markdown('- *Demised To Shield* by Ghostrifter Official | https://soundcloud.com/ghostrifter-official.\n  Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
+        st.markdown('- *Demised To Shield* by Ghostrifter Official | https://soundcloud.com/ghostrifter-official.\n\n  Creative Commons CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/')
         
         st.markdown('- *I have not fear* by Damiano Baldoni | https://soundcloud.com/damiano_baldoni. Creative Commons CC BY 4.0 https://creativecommons.org/licenses/by/4.0/')
         
