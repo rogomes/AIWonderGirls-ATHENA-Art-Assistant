@@ -94,7 +94,7 @@ elif selection == 'Painting Style':
         st.image('athena/images/athena.png')
 
         st.header("Female Painting Style")
-        st.markdown('ATHENA applies [*Style Transfer*]() techniques to learn the style of an image and apply it to another one.')
+        st.markdown('ATHENA applies [*Style Transfer*](https://en.wikipedia.org/wiki/Neural_style_transfer) techniques to learn the style of an image and apply it to another one.')
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
 
         st.write("Below you can select the artist you would like to see the style.")
