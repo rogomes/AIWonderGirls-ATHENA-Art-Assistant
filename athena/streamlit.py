@@ -87,6 +87,9 @@ elif selection == 'Poetry':
         st.header("ATHENA Poetry inspired by Female & Non-binary artists")
         st.write('About blablabla')
         st.write("Below you can ...")
+
+        st.markdown('🚧 This module is under construction, so you may find new artists in the future.')
+
         source = st.selectbox("Select data source:", ['LGBTQ', 'Race', 'Topic3', 'Topic4','Topic5', 'Topic6'])
   
         if source == 'LGBTQ':
@@ -116,7 +119,7 @@ elif selection == 'Painting Style':
         st.header("Female Painting Style")
         st.markdown('ATHENA applies [*Style Transfer*](https://en.wikipedia.org/wiki/Neural_style_transfer) techniques to learn the style of an image and apply it to another one.')
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
-
+        st.markdown('🚧 This module is under construction, so you may find new artists in the future.')
         st.write("Below you can select the artist you would like to see the style.")
         source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell, My Landscape II', 'Suzy Frelinghuysen, Composition - Toreador Drinking',"Georgia O'Keeffe, Manhattan", 'Lila Oliver Asher, Piano concerto','Painter7', 'Painter8'])
         if source == 'Romaine Brooks, Self Portrait':
