@@ -261,44 +261,7 @@ elif selection == 'Painting Style':
                 st.header("Athena Generated")
                 st.image("athena/style/s4c7.jpg", width=230)
 
-        if source == 'Mary Cassatt, Self Portrait':
-            st.header("Original Style")
-            c1, c2 = st.columns(2)
 
-            with c1:
-                
-                st.markdown("[Self Portrait](https://npg.si.edu/object/npg_NPG.76.33), by Mary Cassatt")
-                st.image('athena/style/style_2.jpg', width=250)
-            with c2:
-                st.markdown("""[Mary Cassatt](https://en.wikipedia.org/wiki/Mary_Cassatt), Mary Stevenson Cassatt (May 22, 1844 - June 14, 1926) 
-                was an American painter and printmaker. She was born in Allegheny City, Pennsylvania (now part of Pittsburgh's North Side), 
-                but lived much of her adult life in France where she befriended Edgar Degas and exhibited with the Impressionists. 
-                Cassatt often created images of the social and private lives of women, with particular emphasis on the intimate bonds 
-                between mothers and children. She was described by Gustave Geffroy as one of "les trois grandes dames" (the three great ladies) 
-                of Impressionism alongside Marie Bracquemond and Berthe Morisot. In 1879, Diego Martelli compared her to Degas, 
-                as they both sought to depict movement, light, and design in the most modern sense. (*source: Wikipedia*)""")
-        
-            
-            col1, col2 = st.columns(2)
-
-            with col1:
-                st.header("Original Image")
-                st.image("athena/style/content_1.jpg", width=150)
-                st.markdown('[*Monalisa*](https://en.wikipedia.org/wiki/Mona_Lisa), by Leonardo da Vinci')
-
-            with col2:
-                st.header("Athena Generated")
-                st.image("athena/style/s2c1.jpg", width=230)
-                st.markdown('')
-
-            with col1:
-                st.header("Original Image")
-                st.image("athena/style/content_4.jpg", width=230)
-                st.markdown('[*Water Lilies and Japanese Bridge*](https://artmuseum.princeton.edu/collections/objects/31852), by Claude Monet')
-
-            with col2:
-                st.header("Athena Generated")
-                st.image("athena/style/s2c4.jpg", width=230)
 
 elif selection == 'Feminist Animations':
         st.image('athena/images/athena.png')
