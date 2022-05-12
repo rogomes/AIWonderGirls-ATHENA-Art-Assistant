@@ -145,7 +145,7 @@ elif selection == 'Painting Style':
             with c1:
                 
                 st.markdown("[Self Portrait](https://npg.si.edu/object/npg_NPG.76.33), by Mary Cassatt")
-                st.image('athena/style/style_2.jpg', width=300)
+                st.image('athena/style/style_2.jpg', width=250)
             with c2:
                 st.markdown("""[Mary Cassatt](https://en.wikipedia.org/wiki/Mary_Cassatt), Mary Stevenson Cassatt (May 22, 1844 - June 14, 1926) 
                 was an American painter and printmaker. She was born in Allegheny City, Pennsylvania (now part of Pittsburgh's North Side), 
