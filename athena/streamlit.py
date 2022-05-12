@@ -404,11 +404,11 @@ elif selection == 'Painting Style':
             with col1:
                 st.header("Original Image")
                 st.image("athena/style/content_5.jpg", width=230)
-                st.markdown('[*Self-Portrait_with_Thorn_Necklace_and_Hummingbird*](https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird), by [Frida Kahlo](https://en.wikipedia.org/wiki/Frida_Kahlo)')
+                st.markdown('[*Self Portrait_with_Thorn_Necklace_and_Hummingbird*](https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird), by [Frida Kahlo](https://en.wikipedia.org/wiki/Frida_Kahlo)')
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s6c5.jpg", width=230)
+                st.image("athena/style/s6c5.jpg", width=270)
                 st.markdown('')
 
             with col1:
