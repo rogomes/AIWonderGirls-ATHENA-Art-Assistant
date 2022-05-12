@@ -222,7 +222,7 @@ elif selection == 'Painting Style':
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_7.jpg", width=230)
+                st.image("athena/style/content_7.jpg", width=270)
                 st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
 
             with col2:
@@ -254,7 +254,7 @@ elif selection == 'Painting Style':
 
             with col1:
                 st.header("Original Image")
-                st.image("athena/style/content_7.jpg", width=230)
+                st.image("athena/style/content_7.jpg", width=270)
                 st.markdown('[*The Starry Night*](https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
 
             with col2:
