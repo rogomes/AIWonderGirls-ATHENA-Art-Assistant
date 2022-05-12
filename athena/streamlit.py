@@ -350,7 +350,7 @@ elif selection == 'Painting Style':
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s5c8.jpg", width=230)
+                st.image("athena/style/s5c8.jpg", width=270)
                 st.markdown('')
 
             with col1:
@@ -360,7 +360,7 @@ elif selection == 'Painting Style':
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s5c13.jpg", width=230)
+                st.image("athena/style/s5c13.jpg", width=270)
 
 
         if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
