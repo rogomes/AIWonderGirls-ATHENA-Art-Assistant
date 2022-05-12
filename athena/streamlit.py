@@ -63,7 +63,7 @@ elif selection == 'About':
         st.markdown('This project started during the SAAI Factory hackathon in August 2021, with the [AI Wonder Girls](https://www.linkedin.com/company/80952123/) team. The AI Wonder Girls are an all-female team from all over the world contributing to open source social impact projects.')
         st.image('athena/images/team.png')
 
-        st.markdown("""Visit the project's page at Devopost""")
+        st.markdown("""Visit the project's page at Devpost:""")
         st.markdown('https://devpost.com/software/athena-art-assistant')
 
         st.subheader('Intended Audience:')
