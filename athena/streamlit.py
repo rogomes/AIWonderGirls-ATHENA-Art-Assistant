@@ -118,7 +118,7 @@ elif selection == 'Painting Style':
         st.markdown('In this module of ATHENA, you can learn more about female artists work and see how their painting style changes the perspective of famous paintings.')
 
         st.write("Below you can select the artist you would like to see the style.")
-        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Painter3', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
+        source = st.selectbox("Select data source:", ['Romaine Brooks, Self Portrait', 'Mary Cassatt, Self Portrait', 'Joan Mitchell', 'Painter4','Painter5', 'Painter6','Painter7', 'Painter8'])
         if source == 'Romaine Brooks, Self Portrait':
             st.header("Original Style")
             c1, c2 = st.columns(2)
@@ -157,6 +157,109 @@ elif selection == 'Painting Style':
             with col2:
                 st.header("Athena Generated")
                 st.image("athena/style/s1c2.jpg", width=230)
+
+        if source == 'Mary Cassatt, Self Portrait':
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Self Portrait](https://npg.si.edu/object/npg_NPG.76.33), by Mary Cassatt")
+                st.image('athena/style/style_2.jpg', width=250)
+            with c2:
+                st.markdown("""[Mary Cassatt](https://en.wikipedia.org/wiki/Mary_Cassatt), Mary Stevenson Cassatt (May 22, 1844 - June 14, 1926) 
+                was an American painter and printmaker. She was born in Allegheny City, Pennsylvania (now part of Pittsburgh's North Side), 
+                but lived much of her adult life in France where she befriended Edgar Degas and exhibited with the Impressionists. 
+                Cassatt often created images of the social and private lives of women, with particular emphasis on the intimate bonds 
+                between mothers and children. She was described by Gustave Geffroy as one of "les trois grandes dames" (the three great ladies) 
+                of Impressionism alongside Marie Bracquemond and Berthe Morisot. In 1879, Diego Martelli compared her to Degas, 
+                as they both sought to depict movement, light, and design in the most modern sense. (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_1.jpg", width=150)
+                st.markdown('[*Monalisa*](https://en.wikipedia.org/wiki/Mona_Lisa), by Leonardo da Vinci')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s2c1.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_4.jpg", width=230)
+                st.markdown('[*Water Lilies and Japanese Bridge*](https://artmuseum.princeton.edu/collections/objects/31852), by Claude Monet')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s2c4.jpg", width=230)
+
+        if source == 'Joan Mitchell, My Landscape II':
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[My Landscape II](https://womenshistory.si.edu/object/saam_1980.137.82), by Joan Mitchell")
+                st.image('athena/style/style_3.jpg', width=250)
+            with c2:
+                st.markdown("""[Joan Mitchell](), (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_6.jpg", width=150)
+                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s3c6.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_4.jpg", width=230)
+                st.markdown('[*The Starry Night*](content 7 https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s3c7.jpg", width=230)
+
+        if source == 'Suzy Frelinghuysen, Composition - Toreador Drinking': 
+            st.header("Original Style")
+            c1, c2 = st.columns(2)
+
+            with c1:
+                
+                st.markdown("[Composition - Toreador Drinking](https://womenshistory.si.edu/object/saam_1994.28), by Suzy Frelinghuysen")
+                st.image('athena/style/style_4.jpg', width=250)
+            with c2:
+                st.markdown("""[Suzy Frelinghuysen](), (*source: Wikipedia*)""")
+        
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_6.jpg", width=150)
+                st.markdown('[*Flaming_June*](https://en.wikipedia.org/wiki/Flaming_June), by Frederic Leighton')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c6.jpg", width=230)
+                st.markdown('')
+
+            with col1:
+                st.header("Original Image")
+                st.image("athena/style/content_4.jpg", width=230)
+                st.markdown('[*The Starry Night*](content 7 https://en.wikipedia.org/wiki/The_Starry_Night), by Vincent Van Gogh')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s4c7.jpg", width=230)
 
         if source == 'Mary Cassatt, Self Portrait':
             st.header("Original Style")
