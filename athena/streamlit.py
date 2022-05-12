@@ -162,13 +162,20 @@ elif selection == 'Painting Style':
                 st.header("Original Image")
                 st.image("athena/style/content_1.jpg", width=230)
                 st.markdown('[*Monalisa*](https://en.wikipedia.org/wiki/Mona_Lisa), by Leonardo da Vinci')
+
+            with col2:
+                st.header("Athena Generated")
+                st.image("athena/style/s2c1.jpg", width=230)
+
+            with col1:
+                st.header("Original Image")
                 st.image("athena/style/content_4.jpg", width=230)
                 st.markdown('[*Water Lilies and Japanese Bridge*](https://artmuseum.princeton.edu/collections/objects/31852), by Claude Monet')
 
             with col2:
                 st.header("Athena Generated")
-                st.image("athena/style/s2c1.jpg", width=230)
                 st.image("athena/style/s2c4.jpg", width=230)
+
 elif selection == 'Feminist Animations':
         st.image('athena/images/athena.png')
 
